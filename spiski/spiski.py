@@ -2,7 +2,7 @@
 from Oma_moodul import *
 
 while True:
-    print("0-loe failist\n1-andmete lisamine\n2-salvestame failisse\n3-Kustuta\n 4-Maksimaalne palk\n5-Minimaalne\n6 Sorteerimine\n7 Samapalk\n8 Nimijargi otsing\n9Suurem/vaiksem kui xxx\n10 Top3\n11 Keskmine palk\n 12 Tulumalks ")
+    print("0-loe failist\n1-andmete lisamine\n2-salvestame failisse\n3-Kustuta\n 4-Maksimaalne palk\n5-Minimaalne\n6 Sorteerimine\n7 Samapalk\n8 Nimijargi otsing\n9Suurem/vaiksem kui xxx\n10 Top3\n11 Keskmine palk\n 12 Tulumalk\n 13 Sort by Name\n 14 Lower than average remove")
     v=int(input())
     if v==0:
         palgad=[]
